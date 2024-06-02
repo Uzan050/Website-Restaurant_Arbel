@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+.container-biodata {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 0;
+}
+
+img {
+  display: block;
+  margin: auto;
+  max-width: 300px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.info {
+  margin: 20px 20px;
+}
+
+h2 {
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+h2::after {
+  content: "";
+  border-bottom: 3px solid rgb(251, 33, 33);
+  width: 60px;
+  display: block;
+}
+
+p {
+  margin: 10px 0;
+}
+
+p span {
+  font-weight: bold;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0 0 0 20px;
+}
+
+li {
+  margin: 5px 0;
+}
